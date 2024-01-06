@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="data" method="/get">
+        
+            <legend>
+                Personal details
+            </legend>
+            <label>Salutation</label>
+            <br>
+            <select id="salutation" name="Salutation">
+                <option value="none">--None--</option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+            <br>
+            <br>
+           
+            
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="abcd">
+
+            <br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="abcd">
+            <br>
+            <br>
+            <label for="gender">Gender:</label>
+            
+            <input type="radio"  id="gender" name="gender" value="male">
+            <label for="gender">Male</label>
+
+            <input type="radio"  id="gender" name="gender" value="female">
+            <label for="gender">Female</label>
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+            <br><br>
+
+            <label for="datetime">Date of Birth:</label>
+            <input type="date" id="datetime" >
+            <br><br>
+
+            <label for="address">Address:</label>
+            <br>
+            <textarea id="address" rows="10" cols="50"></textarea>
+            <br>
+
+            <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>
